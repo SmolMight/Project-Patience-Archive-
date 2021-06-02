@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 8168504117567887554}
   - component: {fileID: 8168504117567887556}
   - component: {fileID: 8168504117567887555}
+  - component: {fileID: -9113387387012364226}
   m_Layer: 5
-  m_Name: SampleCard
+  m_Name: Card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1de7920b562187f4ab726a55a7e6bdc3, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -75,3 +76,16 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-9113387387012364226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168504117567887553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f5ef0b17c895b44b54258161f7a581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Suit: {fileID: 11400000, guid: b1bbd76be2182c248b20d1a51b20bd43, type: 2}

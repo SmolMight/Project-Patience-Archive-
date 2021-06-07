@@ -7,5 +7,5 @@ public class PlayingCard : Card
     [SerializeField]
     private EnumValue Suit;
     private Sprite cardSprite;
-    private float value;
+    public float value;
 }

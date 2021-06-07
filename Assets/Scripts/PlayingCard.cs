@@ -7,5 +7,12 @@ public class PlayingCard : Card
     [SerializeField]
     private EnumValue Suit;
     private Sprite cardSprite;
-    public float value;
+    private float value;
+
+    public void Init(EnumValue cSuit, Sprite cSprite, int val)
+    {
+        Suit = cSuit;
+        cardSprite = cSprite;
+        value = val;
+    }
 }

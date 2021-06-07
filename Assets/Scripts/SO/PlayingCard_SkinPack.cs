@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/DeckSkins/PlayingCards", order = 1)]
-public class PlayingCard_Skin : ScriptableObject
+[CreateAssetMenu(fileName = "Default", menuName = "ScriptableObjects/DeckSkins/Default", order = 1)]
+public class PlayingCard_SkinPack : ScriptableObject
 {
     public int skinCode;
     public List<Sprite> Hearts;

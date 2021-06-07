@@ -89,3 +89,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Suit: {fileID: 11400000, guid: b1bbd76be2182c248b20d1a51b20bd43, type: 2}
+  value: 0

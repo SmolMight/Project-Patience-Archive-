@@ -6,13 +6,21 @@ public class PlayingCard : Card
 {
     [SerializeField]
     private EnumValue Suit;
-    private Sprite cardSprite;
+    [SerializeField]
     private float value;
+
+    private Sprite cardSprite;
+    private Sprite cardbackSprite;
 
     public void Init(EnumValue cSuit, Sprite cSprite, int val)
     {
         Suit = cSuit;
         cardSprite = cSprite;
+        value = val;
+    }
+    public void Init(EnumValue cSuit, int val)
+    {
+        Suit = cSuit;
         value = val;
     }
 }

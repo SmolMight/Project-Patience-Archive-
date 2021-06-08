@@ -4,31 +4,24 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private EnumValue[] suits = new EnumValue[4];
-    [SerializeField] private PlayingCard cardPrefab;
+    [SerializeField] private Deck_Info deckInfo;
     [SerializeField] private PlayingCard_SkinPack skinPack;
+    [SerializeField] private PlayingCard cardPrefab;
 
-    [SerializeField] private Transform Deck;
+    [SerializeField] private Transform deck;
 
     void Start()
     {
-        for (int x = 0; x < suits.Length; x++)
+        foreach(PlayingCard_Info cInfo in deckInfo.Cards)
         {
-            for (int y = 0; y < 13; y++)
-            {
-              
-            }
+            PlayingCard card = Instantiate(cardPrefab) as PlayingCard;
+            card.Init(cInfo.suit, cInfo.value);
+            card.transform.SetParent(deck);
         }
     }
 
     void Update()
     {
         
-    }
-
-    private void CreateCard(EnumValue suit, int value)
-    {
-        PlayingCard pCard = new PlayingCard();
-
     }
 }

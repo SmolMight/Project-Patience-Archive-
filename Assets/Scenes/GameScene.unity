@@ -2916,13 +2916,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9357e08dbff09e349980bd957a4313f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suits:
-  - {fileID: 11400000, guid: 2fa642f63d096f0448805040b36653e7, type: 2}
-  - {fileID: 11400000, guid: f660b643f2258f94083892cc09038280, type: 2}
-  - {fileID: 11400000, guid: b8d6e0794d33f624081d98a52a832d68, type: 2}
-  - {fileID: 11400000, guid: b1bbd76be2182c248b20d1a51b20bd43, type: 2}
-  cardPrefab: {fileID: 8168504117567887553, guid: 492732d3f3f000544b3189ce149da635, type: 3}
+  deckInfo: {fileID: 0}
   skinPack: {fileID: 11400000, guid: 9f81dcd38229b0243b6a8abd84ab1514, type: 2}
+  cardPrefab: {fileID: 0}
+  deck: {fileID: 1082499033}
 --- !u!4 &1864119867
 Transform:
   m_ObjectHideFlags: 0
